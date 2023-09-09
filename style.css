@@ -1,0 +1,154 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0px 0px 76px;
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 23px;
+    text-decoration: none;
+}
+
+.link-header:hover {
+    background-color: #665AE1;
+    color: #FFF;
+    border: 6.5px solid #665AE1;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow:1px 1px 3px #0000008c;
+    transition: 0.4s;
+}
+
+.button-login {
+    border-radius: 20.5px;
+    background: #665AE1;
+    color: white;
+    width: 130px;
+    height: 41px;
+    border:none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.button-login:hover {
+    width: 140px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow:1px 1px 3px #0000008c;
+    transition: 0.4s;
+}
+
+.logo-img {
+    width: 568px;
+    height: 500px;
+    margin: 125px 91px -18px 60px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin: 100px 0px 0px 0px;
+    align-items: center;
+}
+
+h1 {
+    color: #515151;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 122px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 71px;
+
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 515px;
+    margin: 30px 0px 40px 0px;
+}
+
+.button-main {
+    border-radius: 30px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px #00000067;
+}
+
+.button-main:hover {
+    background: #ADFF00;
+    color: #000;
+    width: 250px;
+    height: 70px;
+    font-size: 35px;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 900px){
+    
+    header {
+        display: none;
+    }
+
+    .logo-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 30px;
+        margin: 30px 10px 0px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 75px;
+        width: auto;
+        text-align: center;
+        margin: 0px 56px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 60px;
+        text-align: center;
+        width: auto;
+        margin: 5px 50px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-main {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
